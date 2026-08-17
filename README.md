@@ -31,7 +31,7 @@ For local development, put their values in the project-root `local.properties` f
 
 ```properties
 sdk.dir=C\:\\Users\\you\\AppData\\Local\\Android\\Sdk
-SYNC_SERVER_URL=ws://192.168.1.50:8080
+SYNC_SERVER_URL=ws://<server-LAN-IP>:8080
 SYNC_BOARD_ID=demo-board
 ```
 
@@ -40,7 +40,7 @@ For a physical phone, use the development machine's LAN IPv4 address, not `local
 Host environment variables are also supported:
 
 ```powershell
-$env:SYNC_SERVER_URL = "ws://192.168.1.50:8080"
+$env:SYNC_SERVER_URL = "ws://<server-LAN-IP>:8080"
 $env:SYNC_BOARD_ID = "demo-board"
 .\gradlew.bat :app:assembleDebug
 ```
