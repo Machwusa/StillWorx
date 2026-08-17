@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">StillWorx</string>
+    <string name="board_title">Collaborative board</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="offline_sync_message">You’re offline. Changes are saved locally.</string>
+    <string name="connection_success_message">Successfully connected.</string>
+    <string name="manual_reconnect_message">You’re offline. Changes are saved locally.</string>
+    <string name="try_again">RETRY</string>
+    <string name="reconnect_sync_message">Successfully reconnected. Sync to apply updates from other devices.</string>
+    <string name="sync_now">SYNC</string>
+    <string name="column_todo">TODO</string>
+    <string name="column_doing">DOING</string>
+    <string name="column_done">DONE</string>
+    <string name="task_count">%1$d tasks</string>
+    <string name="no_tasks">No tasks</string>
+    <string name="add_task">Add task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="delete_task">Delete task?</string>
+    <string name="delete_task_confirmation">Delete \"%1$s\"? This change will sync when the connection returns.</string>
+    <string name="task_title">Task title</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="drag_instruction">Long-press a card, then drag it to another column.</string>
+    <string name="drop_here">Drop here</string>
+    <string name="move_task_to">Move task to %1$s</string>
+    <string name="task_in_column">In %1$s</string>
+    <string name="save_failed">The change could not be saved.</string>
+</resources>
